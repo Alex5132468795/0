@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+    <VerticalStackLayout
+            VerticalOptions="Center">
+        <!--Source="dotnet_bot.png"-->
+        <Entry
+            x:Name="SecondName"
+            Placeholder = "Secondname">
+
+        </Entry>
+        <Entry
+            x:Name="Name"
+            Placeholder = "Name">
+
+        </Entry>
+        <Entry
+            x:Name="FatherName"
+            Placeholder = "FatherName">
+
+        </Entry>
+        <Entry
+            x:Name="source"
+            Placeholder = "Image">
+
+        </Entry>
+        <Button Text="more" Clicked="OnCounterClicked" BackgroundColor="Blue">
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>
